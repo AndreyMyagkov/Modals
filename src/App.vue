@@ -1,28 +1,44 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div class="wrapper">
+  <div class="wrapper-content">
+
+    <section>
+      <div class="container">
+
+        <h1>Модальные окна</h1>
+        <ul>
+          <li>— <a href="/modals.html">Модальные окна с проверкой</a></li>
+          <li>— <a href="/auth.html">Логин, регистрация </a></li>
+        </ul>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque sequi debitis itaque alias accusantium quam aliquid officia hic totam non, corrupti eveniet necessitatibus quaerat aut adipisci harum eaque cupiditate inventore?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque sequi debitis itaque alias accusantium quam aliquid officia hic totam non, corrupti eveniet necessitatibus quaerat aut adipisci harum eaque cupiditate inventore?</p>
+       
+      </div>
+    </section>
+      
+    </div>
+
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
+<style lang="scss" scoped>
+  h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
   }
-}
-</script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  ul {
+    margin: 0 0 1.5em 0;
+  }
+  li {
+    margin: 0 0 1.5em 0;
+  }
+  a {text-decoration: underline}
 </style>
